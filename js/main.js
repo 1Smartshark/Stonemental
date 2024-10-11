@@ -6,7 +6,7 @@ const MAIN = {
     stoneGain() {
         let x = E(1)
 
-        x = x.mul(upgEffect('stone',0)[1000000])
+        x = x.mul(upgEffect('stone',1e6)[1])
         if (upgBought('t_stone',2)) x = x.mul(upgEffect('t_stone',2))
         x = x.mul(tmp.goldEffect).mul(tmp.pickEffect)
 

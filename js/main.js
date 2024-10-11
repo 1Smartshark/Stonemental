@@ -14,8 +14,8 @@ const MAIN = {
     },
 
     t_stone: {
-        tiers: ['','Sandstone','Andesite','Diorite','Granite','Prismarine','Basalt','Ironstone','Cobalt','Obsidian','Quartz','Titanium','Topaz','Ruby','Diamond','w-BN','Lonsdaleite','Neutronium','Strange Matter','Unobtainium','Bedrock'],
-        tiers2: ['','Super ','Hyper ','Ultra ','Meta-','Exo-','Power-','Omega ','Final ','Total '],
+        tiers: ['','Sandstone','Andesite','Diorite','Granite','Prismarine','Basalt','Ironstone','Cobalt','Obsidian','Quartz','Titanium','Topaz','Ruby','Diamond','w-BN','Lonsdaleite','Neutronium','Strange Matter','Unobtainium','Bedrock','Infinitium'],
+        tiers2: ['','Super ','Hyper ','Ultra ','Meta-','Exo-','Power-','Omega ','Final ','Total ','Endless ','Neverending ','Eternal ','Galactic ','Universal ','Multiversal ','Omniversal ','Forever ','Infinite '],
 
         gain() {
             let x = E(1)
